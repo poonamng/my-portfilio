@@ -7,7 +7,6 @@
 
 body {
    font-family: 'Kanit', sans-serif;
-
   font-family: 'Open Sans', sans-serif;
   margin: 0px auto;
   max-width: 85%;
@@ -169,6 +168,7 @@ hr {
 
 /** projects **/
 .showcase-list {
+  
   padding: 2rem;
   border-radius: 1rem;
   text-align: center;
