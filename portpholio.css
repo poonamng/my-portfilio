@@ -78,7 +78,7 @@ hr {
   background-color: var(--primary-color);
   color: white;
   padding: 1rem;
-  border-bottom-left-radius: 1rem;
+  border-radius: 1rem;
 }
 
 .navigation .nav-brand {
@@ -91,8 +91,8 @@ hr {
 }
 
 .navigation .nav-pills {
-  text-align: right;
-  margin: 0.6rem 1rem;
+  text-align: left;
+  margin: 1rem 1rem;
 }
 
 .navigation .link {
@@ -147,10 +147,10 @@ hr {
 
 .footer {
   background-color: var(--primary-color);
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   text-align: center;
   color: white;
-  border-top-right-radius: 1rem;
+  box-sizing: 1rem;
 }
 
 .footer .link {
@@ -163,7 +163,7 @@ hr {
 }
 
 .footer ul {
-  padding-inline-start: 0px;
+  padding-inline-start: 1px;
 }
 
 /** projects **/
@@ -183,28 +183,24 @@ hr {
 }
 
 /** blogs **/
+.showcase-blog { 
+  padding-bottom: 6rem; 
+    width: 50%;
+  } 
 
-.showcase-blog {
-  padding-bottom: 6rem;
-}
-
-@media (max-width: 900px) {
-  body {
-    max-width: 95%;
-    width: 100%;
-  }
-
-  .list-item-inline {
-    display: inline;
-    padding: 0rem;
-  }
+   .list-item-inline { 
+     display: inline;
+     padding: 0rem; 
+ }
 
   .container-center {
     width: auto;
   }
 
   .link-primary {
-    display: block;
-  }
+     display: block; 
+   }
+ 
+.center{
+  text-align: center;
 }
-
